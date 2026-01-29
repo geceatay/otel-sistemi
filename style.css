@@ -1,1 +1,30 @@
-a
+body {
+  font-family: Arial;
+}
+
+.room-container {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 15px;
+}
+
+.room {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.available {
+  background: green;
+}
+
+.occupied {
+  background: red;
+}
+
+.needs_cleaning {
+  background: orange;
+}
