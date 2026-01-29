@@ -3,7 +3,7 @@ function login() {
   const pass = document.getElementById("password").value;
 
   // ŞİMDİLİK SAHTE
-  if (user === "reception" && pass === "1234") {
+  if (user === "a" && pass === "a") {
     window.location.href = "dashboard.html";
   } else if (user === "admin" && pass === "admin") {
     window.location.href = "admin.html";
